@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: lightblue;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: black;
+}
+.spacing {
+  margin-right: 10px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.addCategory {
+  margin-top: 2rem;
+  text-align: center;
+}
+button input {
+  margin-left: 2rem;
+}
+
+/* .categoryList {
+  background-color: blue
+} */
+.App-link {
+  color: #61dafb;
+}
+
+.delete-btn {
+  display: inline-block;
+  padding: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  line-height: 0.6rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  color: white;
+  border-color: #e2e2e2;
+  background-color: #888;
+}
+
+.save-button-wrapper {
+  display: inline-block;
+}
+
+button.btn.btn-outline-primary {
+  border-radius: 0;
+  vertical-align: middle;
+  padding: 5px;
+  margin: 5px auto;
+}
+
+input[type="text"] {
+  padding: 4px;
+  vertical-align: middle;
+}
+
+.save-button-wrapper {
+  display: inline-block;
+}
+
+button.btn.btn-outline-primary {
+  border-radius: 0;
+  vertical-align: middle;
+  padding: 5px;
+  margin: 5px auto;
+}
+
+input[type="text"] {
+  padding: 4px;
+  vertical-align: middle;
+}
+
+.row:first-child h4 {
+  margin: 10px auto;
+}
+
+.row:nth-child(odd) {
+  background: #cfcfcf;
+}
+
+.row:nth-child(even) {
+  background: #efefef;
+}
+
+.row:first-child {
+  background: #444;
+  color: #f1f1f1;
+}
