@@ -13,7 +13,7 @@ const server = express();
 
 server.use('*', cors({ origin: 'http://localhost:3000' }));
 // Serve the static files from the React app
-server.use(express.static(path.join(__dirname, 'frontend/build')));
+// server.use(express.static(path.join(__dirname, 'frontend/build')));
 
 server.use('/graphql', bodyParser.json(), graphqlExpress({
   schema
