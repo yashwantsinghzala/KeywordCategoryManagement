@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 const schema = require('./api/schema');
 const cors = require('cors')
 
-const PORT = 4000;
+const PORT = process.env.PORT||4000;
 const server = express();
 
 
