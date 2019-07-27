@@ -9,7 +9,7 @@
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": "cd frontend && npm install && npm build"
+    "heroku-postbuild": "cd frontend && npm install && npm build && npm start"
   },
   "keywords": [],
   "author": "",
